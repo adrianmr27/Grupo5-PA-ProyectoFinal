@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyNotes.Web", "StickyNotes.Web\StickyNotes.Web.csproj", "{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyNotes.Data", "StickyNotes.Data\StickyNotes.Data.csproj", "{4180570B-F660-4C16-A316-3D1E7910D18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyNotes.Core", "StickyNotes.Core\StickyNotes.Core.csproj", "{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyNotes.Models", "StickyNotes.Models\StickyNotes.Models.csproj", "{FE63EABE-E748-477F-A8DF-E9EB6170FFB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4180570B-F660-4C16-A316-3D1E7910D18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4180570B-F660-4C16-A316-3D1E7910D18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4180570B-F660-4C16-A316-3D1E7910D18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4180570B-F660-4C16-A316-3D1E7910D18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE63EABE-E748-477F-A8DF-E9EB6170FFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE63EABE-E748-477F-A8DF-E9EB6170FFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE63EABE-E748-477F-A8DF-E9EB6170FFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE63EABE-E748-477F-A8DF-E9EB6170FFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB6FD7A8-A1E7-489E-A3D7-85CFE7BD1201}
+	EndGlobalSection
+EndGlobal

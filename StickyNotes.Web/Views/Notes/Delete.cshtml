@@ -1,0 +1,78 @@
+@model StickyNotes.Data.Note
+
+@{
+    ViewBag.Title = "Eliminar Nota";
+}
+
+<h2>Eliminar Nota</h2>
+
+<h3>¿Estás seguro de que quieres eliminar esta nota?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd>
+            <div class="well">
+                @Html.DisplayFor(model => model.Content)
+            </div>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReminderDate)
+        </dt>
+        <dd>
+            @if (Model.ReminderDate.HasValue)
+            {
+                @Model.ReminderDate.Value.ToString("dd/MM/yyyy HH:mm")
+            }
+            else
+            {
+                <span class="text-muted">Sin recordatorio</span>
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd>
+            @Model.CreatedAt.ToString("dd/MM/yyyy HH:mm")
+        </dd>
+
+        <dt>
+            Estado
+        </dt>
+        <dd>
+            @if (Model.IsPinned)
+            {
+                <span class="text-warning"><span class="glyphicon glyphicon-pushpin"></span> Nota fijada</span>
+            }
+            @if (Model.IsCompleted)
+            {
+                <span class="text-success"><span class="glyphicon glyphicon-ok"></span> Completada</span>
+            }
+            @if (!Model.IsPinned && !Model.IsCompleted)
+            {
+                <span class="text-info">Nota normal</span>
+            }
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+            @Html.ActionLink("Volver a la Lista", "Index", null, new { @class = "btn btn-default" })
+        </div>
+    }
+</div>
+

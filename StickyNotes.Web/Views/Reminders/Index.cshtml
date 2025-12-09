@@ -1,0 +1,57 @@
+﻿@model IEnumerable<StickyNotes.Data.Reminder>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.intervalo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estados.estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Notas.titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoUnidad.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoFrecuencia.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.intervalo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estados.estado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Notas.titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoUnidad.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoFrecuencia.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idReminder }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idReminder }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idReminder })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,345 @@
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Web.dll.config
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Web.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Web.pdb
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\csc.exe
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\csc.exe.config
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\csc.rsp
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\csi.exe
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\csi.exe.config
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\csi.rsp
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.AppContext.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Console.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Net.Http.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Net.Sockets.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\vbc.exe
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\vbc.exe.config
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\vbc.rsp
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Antlr3.Runtime.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\EntityFramework.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Newtonsoft.Json.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Owin.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Core.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Data.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Models.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.Helpers.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.Mvc.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.Optimization.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.Razor.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.WebPages.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\WebGrease.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Core.pdb
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Data.pdb
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Data.dll.config
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\StickyNotes.Models.pdb
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\EntityFramework.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.Helpers.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.Mvc.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.Optimization.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.Razor.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.WebPages.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Newtonsoft.Json.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Antlr3.Runtime.pdb
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\obj\Debug\StickyNotes.Web.csproj.AssemblyReference.cache
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\obj\Debug\StickyNotes.Web.csproj.CoreCompileInputs.cache
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\obj\Debug\StickyNo.87233760.Up2Date
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\obj\Debug\StickyNotes.Web.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Web\obj\Debug\StickyNotes.Web.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Web.dll.config
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Web.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Web.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csc.exe
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csc.exe.config
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csc.rsp
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csi.exe
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csi.exe.config
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csi.rsp
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.AppContext.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Console.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Net.Http.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\vbc.exe
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\vbc.exe.config
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\vbc.rsp
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Antlr3.Runtime.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\EntityFramework.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Newtonsoft.Json.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Owin.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Core.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Data.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Models.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Helpers.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Mvc.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Optimization.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Razor.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\WebGrease.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Core.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Data.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Data.dll.config
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Models.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\EntityFramework.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Helpers.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Mvc.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Optimization.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Razor.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Newtonsoft.Json.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Antlr3.Runtime.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNotes.Web.csproj.AssemblyReference.cache
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNotes.Web.csproj.CoreCompileInputs.cache
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNo.87233760.Up2Date
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNotes.Web.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNotes.Web.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Web.dll.config
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Web.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Web.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csc.exe
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csc.exe.config
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csc.rsp
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csi.exe
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csi.exe.config
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\csi.rsp
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.AppContext.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Console.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Net.Http.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Net.Sockets.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\vbc.exe
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\vbc.exe.config
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\vbc.rsp
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Antlr3.Runtime.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\EntityFramework.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Newtonsoft.Json.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Owin.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Core.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Data.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Models.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Helpers.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Mvc.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Optimization.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Razor.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\WebGrease.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Core.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Data.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Data.dll.config
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\StickyNotes.Models.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\EntityFramework.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Helpers.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Mvc.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Optimization.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.Razor.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Newtonsoft.Json.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Antlr3.Runtime.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNotes.Web.csproj.AssemblyReference.cache
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNotes.Web.csproj.CoreCompileInputs.cache
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNo.87233760.Up2Date
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNotes.Web.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Web\obj\Debug\StickyNotes.Web.pdb

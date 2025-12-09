@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repositories\\UFide\\Progra Avanzada _\\2025\\Cuatrimestre 2\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|AdvancedProgramming.Web\\AdvancedProgramming.Web.csproj|e:\\repositories\\ufide\\progra avanzada _\\2025\\cuatrimestre 2\\advancedprogramming.web\\advancedprogramming.web\\advancedprogramming.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|AdvancedProgramming.Web\\AdvancedProgramming.Web.csproj|solutionrelative:advancedprogramming.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_AdvancedProgramming.Web_20250728080515/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|AdvancedProgramming.Web\\AdvancedProgramming.Web.csproj|e:\\repositories\\ufide\\progra avanzada _\\2025\\cuatrimestre 2\\advancedprogramming.web\\advancedprogramming.web\\advancedprogramming.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|AdvancedProgramming.Web\\AdvancedProgramming.Web.csproj|solutionrelative:advancedprogramming.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|AdvancedProgramming.Web\\AdvancedProgramming.Web.csproj|e:\\repositories\\ufide\\progra avanzada _\\2025\\cuatrimestre 2\\advancedprogramming.web\\advancedprogramming.web\\advancedprogramming.web\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|AdvancedProgramming.Web\\AdvancedProgramming.Web.csproj|solutionrelative:advancedprogramming.web\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 486,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\repositories\\UFide\\Progra Avanzada _\\2025\\Cuatrimestre 2\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AdvancedProgramming.Web\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\repositories\\UFide\\Progra Avanzada _\\2025\\Cuatrimestre 2\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "AdvancedProgramming.Web\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T00:41:24.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "E:\\repositories\\UFide\\Progra Avanzada _\\2025\\Cuatrimestre 2\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "AdvancedProgramming.Web\\Controllers\\ManageController.cs",
+              "ToolTip": "E:\\repositories\\UFide\\Progra Avanzada _\\2025\\Cuatrimestre 2\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "AdvancedProgramming.Web\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T00:40:40.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\repositories\\UFide\\Progra Avanzada _\\2025\\Cuatrimestre 2\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AdvancedProgramming.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\repositories\\UFide\\Progra Avanzada _\\2025\\Cuatrimestre 2\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\AdvancedProgramming.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AdvancedProgramming.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAjwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T00:39:40.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_AdvancedProgramming.Web_20250728080515/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-05T00:38:54.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

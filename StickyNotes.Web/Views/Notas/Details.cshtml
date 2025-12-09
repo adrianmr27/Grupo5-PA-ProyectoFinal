@@ -1,0 +1,41 @@
+﻿@model StickyNotes.Data.Notas
+
+@{
+    ViewBag.Title = "Detalles de Nota";
+}
+
+<h2>Detalles de la Nota</h2>
+
+<div style="max-width: 500px; margin: 20px auto;">
+    <div style="
+        background-color:@Model.color;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        color: #333;
+    ">
+        <h3 style="margin-top: 0;">@Model.titulo</h3>
+        <p>@Model.contenido</p>
+
+        <hr />
+
+        <p><strong>Categoría:</strong> @Model.Categorias?.nombre</p>
+        <p><strong>Estado:</strong> @Model.Estados?.estado</p>
+        <p><strong>Usuario:</strong> @Model.Usuarios?.nombre</p>
+
+        @if (Model.fechaCreacion.HasValue)
+        {
+            <p><strong>Creada:</strong> @Model.fechaCreacion.Value.ToString("dd/MM/yyyy HH:mm")</p>
+        }
+
+        @if (Model.fechaModificacion.HasValue)
+        {
+            <p><strong>Última modificación:</strong> @Model.fechaModificacion.Value.ToString("dd/MM/yyyy HH:mm")</p>
+        }
+    </div>
+
+    <div style="margin-top: 15px;">
+        @Html.ActionLink("Editar", "Edit", new { id = Model.idNota }, new { @class = "btn btn-warning" })
+        @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-secondary" })
+    </div>
+</div>

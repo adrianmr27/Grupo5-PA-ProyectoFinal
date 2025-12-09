@@ -1,0 +1,113 @@
+﻿@model StickyNotes.Data.Notas
+
+@{
+    ViewBag.Title = "Crear Nota";
+}
+
+<h2 class="text-center mb-4">📝 Crear Nueva Nota</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="card shadow p-4 mx-auto" style="max-width: 700px; border-radius: 12px;">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger mb-3" })
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.titulo, "Título", new { @class = "form-label fw-semibold" })
+            @Html.TextBoxFor(model => model.titulo, new { @class = "form-control", placeholder = "Ej. Lista de compras..." })
+            @Html.ValidationMessageFor(model => model.titulo, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.contenido, "Contenido", new { @class = "form-label fw-semibold" })
+            @Html.TextAreaFor(model => model.contenido, new { @class = "form-control", rows = 5, placeholder = "Escribe tu nota aquí..." })
+            @Html.ValidationMessageFor(model => model.contenido, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.color, "Color de la Nota", new { @class = "form-label fw-semibold" })
+            <div class="d-flex align-items-center gap-3">
+                <input type="color" name="color" value="@Model?.color ?? " #FFD700"" class="form-control form-control-color" style="width: 80px; height: 40px;" />
+                <span class="text-muted">Selecciona el color de fondo de tu nota</span>
+            </div>
+            @Html.ValidationMessageFor(model => model.color, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.idUsuario, "Usuario", new { @class = "form-label fw-semibold" })
+            @Html.DropDownList("idUsuario", null, "Seleccione un usuario", new { @class = "form-select" })
+            @Html.ValidationMessageFor(model => model.idUsuario, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.idCategoria, "Categoría", new { @class = "form-label fw-semibold" })
+            @Html.DropDownList("idCategoria", null, "Seleccione una categoría", new { @class = "form-select" })
+            @Html.ValidationMessageFor(model => model.idCategoria, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-4">
+            @Html.LabelFor(model => model.idEstado, "Estado", new { @class = "form-label fw-semibold" })
+            @Html.DropDownList("idEstado", null, "Seleccione un estado", new { @class = "form-select" })
+            @Html.ValidationMessageFor(model => model.idEstado, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <a href="@Url.Action("Index")" class="btn btn-secondary px-4">
+                ← Volver a la lista
+            </a>
+            <button type="submit" class="btn btn-primary px-4">
+                💾 Crear Nota
+            </button>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    /* Diseño coherente con el nuevo layout */
+    h2 {
+        font-weight: 700;
+        color: #2c3e50;
+    }
+
+    .card {
+        background-color: #fff;
+        border: none;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #007bff, #00b4d8);
+        border: none;
+        font-weight: 600;
+        transition: transform 0.2s ease;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(135deg, #0096c7, #0077b6);
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border: none;
+        font-weight: 600;
+        transition: transform 0.2s ease;
+    }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            background-color: #5a6268;
+        }
+
+    .form-control, .form-select {
+        border-radius: 8px;
+    }
+
+    label {
+        color: #333;
+    }
+</style>

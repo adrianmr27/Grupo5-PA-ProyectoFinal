@@ -1,0 +1,36 @@
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\bin\Debug\StickyNotes.Core.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\bin\Debug\StickyNotes.Core.pdb
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\bin\Debug\StickyNotes.Data.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\bin\Debug\EntityFramework.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\bin\Debug\StickyNotes.Data.pdb
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\bin\Debug\StickyNotes.Data.dll.config
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\bin\Debug\EntityFramework.xml
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\obj\Debug\StickyNotes.Core.csproj.AssemblyReference.cache
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\obj\Debug\StickyNotes.Core.csproj.CoreCompileInputs.cache
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\obj\Debug\StickyNo.E4BA963E.Up2Date
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\obj\Debug\StickyNotes.Core.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Core\obj\Debug\StickyNotes.Core.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Core.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Core.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Data.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\EntityFramework.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Data.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Data.dll.config
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\EntityFramework.xml
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.csproj.AssemblyReference.cache
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.csproj.CoreCompileInputs.cache
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNo.E4BA963E.Up2Date
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Core.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Core.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Data.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\EntityFramework.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Data.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\StickyNotes.Data.dll.config
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\bin\Debug\EntityFramework.xml
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.csproj.AssemblyReference.cache
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.csproj.CoreCompileInputs.cache
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNo.E4BA963E.Up2Date
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.pdb

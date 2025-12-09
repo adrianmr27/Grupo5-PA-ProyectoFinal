@@ -1,0 +1,74 @@
+@model IEnumerable<StickyNotes.Data.Note>
+
+@{
+    ViewBag.Title = "Notas Fijadas";
+}
+
+<h2><span class="glyphicon glyphicon-pushpin"></span> Notas Fijadas</h2>
+
+<p>
+    @Html.ActionLink("Crear Nueva Nota", "Create", null, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Ver Todas las Notas", "Index", null, new { @class = "btn btn-default" })
+</p>
+
+<hr />
+
+@if (Model != null && Model.Any())
+{
+    <div class="row">
+        @foreach (var note in Model)
+        {
+            <div class="col-md-4">
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <span class="glyphicon glyphicon-pushpin"></span>
+                            @Html.DisplayFor(modelItem => note.Title)
+                            @if (note.IsCompleted)
+                            {
+                                <span class="label label-success">Completada</span>
+                            }
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>@Html.DisplayFor(modelItem => note.Content)</p>
+                        @if (note.ReminderDate.HasValue)
+                        {
+                            <p><small class="text-muted">Recordatorio: @note.ReminderDate.Value.ToString("dd/MM/yyyy HH:mm")</small></p>
+                        }
+                        <p><small class="text-muted">Creada: @note.CreatedAt.ToString("dd/MM/yyyy HH:mm")</small></p>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="btn-group btn-group-sm">
+                            @Html.ActionLink("Ver", "Details", new { id = note.NoteID }, new { @class = "btn btn-info" })
+                            @Html.ActionLink("Editar", "Edit", new { id = note.NoteID }, new { @class = "btn btn-warning" })
+                            @Html.ActionLink("Eliminar", "Delete", new { id = note.NoteID }, new { @class = "btn btn-danger" })
+                        </div>
+                        <div class="pull-right">
+                            @using (Html.BeginForm("TogglePin", "Notes", new { id = note.NoteID }, FormMethod.Post))
+                            {
+                                <button type="submit" class="btn btn-sm btn-warning">
+                                    <span class="glyphicon glyphicon-pushpin"></span>
+                                </button>
+                            }
+                            @using (Html.BeginForm("ToggleComplete", "Notes", new { id = note.NoteID }, FormMethod.Post))
+                            {
+                                <button type="submit" class="btn btn-sm @(note.IsCompleted ? "btn-success" : "btn-default")">
+                                    <span class="glyphicon glyphicon-ok"></span>
+                                </button>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        <h4>No hay notas fijadas</h4>
+        <p>No tienes ninguna nota fijada. @Html.ActionLink("¡Fija tu primera nota!", "Index")</p>
+    </div>
+}
+

@@ -1,0 +1,144 @@
+﻿@model IEnumerable<StickyNotes.Data.Notas>
+
+@{
+    ViewBag.Title = "Notas";
+}
+
+<h2>Mis Notas</h2>
+
+<p>
+    @Html.ActionLink("➕ Crear Nueva Nota", "Create", null, new { @class = "btn btn-primary" })
+</p>
+
+<style>
+    .notes-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .note-card {
+        width: 250px;
+        min-height: 160px;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        word-wrap: break-word;
+        transition: transform 0.25s ease;
+    }
+
+        .note-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .note-title {
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+
+    .note-content {
+        flex-grow: 1;
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+    }
+
+    .note-footer {
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .note-meta {
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+    }
+
+    .note-date {
+        font-size: 0.75rem;
+        color: #444;
+    }
+
+    .note-actions {
+        display: flex;
+        gap: 6px;
+    }
+
+    .btn-action {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 32px;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: #fff;
+        border: none;
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .btn-action:hover {
+            transform: translateY(-2px);
+        }
+
+    .btn-edit {
+        background-color: #007bff;
+    }
+
+    .btn-delete {
+        background-color: #dc3545;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 6px;
+        color: white;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+</style>
+
+<div class="notes-container">
+    @foreach (var item in Model)
+    {
+        <div class="note-card" style="background-color:@item.color">
+            <div>
+                <div class="note-title">@item.titulo</div>
+                <div class="note-content">@item.contenido</div>
+            </div>
+            <div class="note-footer">
+                <div class="note-meta">
+                    <span><strong>@(item.Categorias != null ? item.Categorias.nombre : "Sin categoría")</strong></span>
+                    @if (item.fechaCreacion.HasValue)
+                    {
+                        <span class="note-date">@item.fechaCreacion.Value.ToString("d MMM").ToLower()</span>
+                    }
+                </div>
+                <div class="note-actions">
+                    @Html.ActionLink("✏️ Editar", "Edit", new { id = item.idNota }, new { @class = "btn-action btn-edit" })
+                    <a href="#" class="btn-action btn-delete" data-id="@item.idNota">🗑️ Eliminar</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section scripts {
+    <script src="~/Scripts/ScriptDelete.js"></script>
+}
+

@@ -1,0 +1,81 @@
+@model StickyNotes.Data.Note
+
+@{
+    ViewBag.Title = "Detalles de la Nota";
+}
+
+<h2>Detalles de la Nota</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+            @if (Model.IsPinned)
+            {
+                <span class="label label-warning">Fijada</span>
+            }
+            @if (Model.IsCompleted)
+            {
+                <span class="label label-success">Completada</span>
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd>
+            <div class="well">
+                @Html.DisplayFor(model => model.Content)
+            </div>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReminderDate)
+        </dt>
+        <dd>
+            @if (Model.ReminderDate.HasValue)
+            {
+                @Model.ReminderDate.Value.ToString("dd/MM/yyyy HH:mm")
+            }
+            else
+            {
+                <span class="text-muted">Sin recordatorio</span>
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd>
+            @Model.CreatedAt.ToString("dd/MM/yyyy HH:mm")
+        </dd>
+
+        <dt>
+            Estado
+        </dt>
+        <dd>
+            @if (Model.IsPinned)
+            {
+                <span class="text-warning"><span class="glyphicon glyphicon-pushpin"></span> Nota fijada</span>
+            }
+            @if (Model.IsCompleted)
+            {
+                <span class="text-success"><span class="glyphicon glyphicon-ok"></span> Completada</span>
+            }
+            @if (!Model.IsPinned && !Model.IsCompleted)
+            {
+                <span class="text-info">Nota normal</span>
+            }
+        </dd>
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.NoteID }, new { @class = "btn btn-warning" }) |
+    @Html.ActionLink("Volver a la Lista", "Index", null, new { @class = "btn btn-default" })
+</p>
+

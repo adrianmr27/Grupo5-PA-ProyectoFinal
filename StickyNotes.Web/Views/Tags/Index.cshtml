@@ -1,0 +1,39 @@
+﻿@model IEnumerable<StickyNotes.Data.Tags>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estados.estado)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estados.estado)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idTag }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idTag }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idTag })
+        </td>
+    </tr>
+}
+
+</table>

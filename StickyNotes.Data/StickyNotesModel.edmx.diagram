@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b660fbd4f680435daac9646e0b243cd1" Name="Diagram1">
+        <EntityTypeShape EntityType="StickyNotesModel.Categorias" Width="1.5" PointX="5.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StickyNotesModel.Estados" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StickyNotesModel.Notas" Width="1.5" PointX="7.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="StickyNotesModel.Reminder" Width="1.5" PointX="9.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StickyNotesModel.Tags" Width="1.5" PointX="12.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StickyNotesModel.TipoFrecuencia" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StickyNotesModel.TipoUnidad" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="StickyNotesModel.Usuarios" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <AssociationConnector Association="StickyNotesModel.FK__Categoria__idEst__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Categoria__idUsu__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Notas__idCategor__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Notas__idEstado__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Reminder__idEsta__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Tags__idEstado__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__TipoFrecu__idEst__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__TipoUnida__idEst__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Usuarios__idEsta__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Notas__idUsuario__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Reminder__idNota__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Reminder__idTipo__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.FK__Reminder__idTipo__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="StickyNotesModel.NotaTag" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

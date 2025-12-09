@@ -1,0 +1,282 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\downloads\\stickynotes\\stickynotes\\stickynotes-main\\stickynotes.web\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\views\\notas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\scripts\\scriptdelete.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\scripts\\scriptdelete.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\views\\notas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.core\\usuariosbusiness .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|solutionrelative:stickynotes.core\\usuariosbusiness .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.data\\entities\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\entities\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.data\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\stickynotes.web\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 486,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuariosBusiness .cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Core\\UsuariosBusiness .cs",
+              "RelativeDocumentMoniker": "StickyNotes.Core\\UsuariosBusiness .cs",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Core\\UsuariosBusiness .cs",
+              "RelativeToolTip": "StickyNotes.Core\\UsuariosBusiness .cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T05:47:38.092Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAADYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T19:16:47.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T19:13:33.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T19:12:29.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Global.asax.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Global.asax.cs",
+              "RelativeToolTip": "StickyNotes.Web\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T19:12:26.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Global.asax",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Global.asax",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Global.asax",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Global.asax",
+              "RelativeToolTip": "StickyNotes.Web\\Global.asax",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000179|",
+              "WhenOpened": "2025-11-08T19:12:25.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwFsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T18:49:41.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Notas\\Index.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Notas\\Index.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAkwH0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T19:18:31.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ScriptDelete.js",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Scripts\\ScriptDelete.js",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Scripts\\ScriptDelete.js",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Scripts\\ScriptDelete.js",
+              "RelativeToolTip": "StickyNotes.Web\\Scripts\\ScriptDelete.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-08T18:50:18.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Notas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Notas\\Edit.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Edit.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T19:22:34.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Notas\\Create.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Notas\\Create.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T19:14:58.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotasController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Controllers\\NotasController.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Controllers\\NotasController.cs",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Controllers\\NotasController.cs",
+              "RelativeToolTip": "StickyNotes.Web\\Controllers\\NotasController.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAwC0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T19:05:41.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Data\\Entities\\Usuarios.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Data\\Entities\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Data\\Entities\\Usuarios.cs",
+              "RelativeToolTip": "StickyNotes.Data\\Entities\\Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T06:06:10.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Web\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-02T06:03:51.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Data\\Usuarios.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Data\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\adria\\Downloads\\StickyNotes\\StickyNotes\\StickyNotes-main\\StickyNotes.Data\\Usuarios.cs",
+              "RelativeToolTip": "StickyNotes.Data\\Usuarios.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T04:58:03.583Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

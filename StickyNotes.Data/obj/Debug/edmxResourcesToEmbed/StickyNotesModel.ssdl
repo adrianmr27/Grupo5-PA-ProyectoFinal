@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StickyNotesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Categorias">
+    <Key>
+      <PropertyRef Name="idCategoria" />
+    </Key>
+    <Property Name="idCategoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="150" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="400" />
+    <Property Name="idUsuario" Type="int" />
+    <Property Name="idEstado" Type="int" />
+  </EntityType>
+  <EntityType Name="Estados">
+    <Key>
+      <PropertyRef Name="idEstado" />
+    </Key>
+    <Property Name="idEstado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="estado" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Notas">
+    <Key>
+      <PropertyRef Name="idNota" />
+    </Key>
+    <Property Name="idNota" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="titulo" Type="nvarchar" MaxLength="200" />
+    <Property Name="contenido" Type="nvarchar" MaxLength="500" />
+    <Property Name="color" Type="nvarchar" MaxLength="20" />
+    <Property Name="fechaCreacion" Type="datetime2" Precision="7" />
+    <Property Name="fechaModificacion" Type="datetime2" Precision="7" />
+    <Property Name="idUsuario" Type="int" />
+    <Property Name="idCategoria" Type="int" />
+    <Property Name="idEstado" Type="int" />
+  </EntityType>
+  <EntityType Name="NotaTag">
+    <Key>
+      <PropertyRef Name="idNota" />
+      <PropertyRef Name="idTag" />
+    </Key>
+    <Property Name="idNota" Type="int" Nullable="false" />
+    <Property Name="idTag" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reminder">
+    <Key>
+      <PropertyRef Name="idReminder" />
+    </Key>
+    <Property Name="idReminder" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="intervalo" Type="int" />
+    <Property Name="idTipoUnidad" Type="int" />
+    <Property Name="idTipoFrecuencia" Type="int" />
+    <Property Name="idNota" Type="int" />
+    <Property Name="idEstado" Type="int" />
+  </EntityType>
+  <EntityType Name="Tags">
+    <Key>
+      <PropertyRef Name="idTag" />
+    </Key>
+    <Property Name="idTag" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="100" />
+    <Property Name="idEstado" Type="int" />
+  </EntityType>
+  <EntityType Name="TipoFrecuencia">
+    <Key>
+      <PropertyRef Name="idTipoFrecuencia" />
+    </Key>
+    <Property Name="idTipoFrecuencia" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="150" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="400" />
+    <Property Name="idEstado" Type="int" />
+  </EntityType>
+  <EntityType Name="TipoUnidad">
+    <Key>
+      <PropertyRef Name="idTipoUnidad" />
+    </Key>
+    <Property Name="idTipoUnidad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="100" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="250" />
+    <Property Name="idEstado" Type="int" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="100" />
+    <Property Name="primerApellido" Type="nvarchar" MaxLength="100" />
+    <Property Name="segundoApellido" Type="nvarchar" MaxLength="100" />
+    <Property Name="nombreUsuario" Type="nvarchar" MaxLength="50" />
+    <Property Name="contrasena" Type="nvarchar" MaxLength="255" />
+    <Property Name="correo" Type="nvarchar" MaxLength="150" />
+    <Property Name="fechaNacimiento" Type="date" />
+    <Property Name="fechaRegistro" Type="datetime2" Precision="7" />
+    <Property Name="idEstado" Type="int" />
+  </EntityType>
+  <Association Name="FK__Categoria__idEst__3E52440B">
+    <End Role="Estados" Type="Self.Estados" Multiplicity="0..1" />
+    <End Role="Categorias" Type="Self.Categorias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="Categorias">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Categoria__idUsu__3D5E1FD2">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="Categorias" Type="Self.Categorias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="Categorias">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notas__idCategor__4316F928">
+    <End Role="Categorias" Type="Self.Categorias" Multiplicity="0..1" />
+    <End Role="Notas" Type="Self.Notas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorias">
+        <PropertyRef Name="idCategoria" />
+      </Principal>
+      <Dependent Role="Notas">
+        <PropertyRef Name="idCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notas__idEstado__440B1D61">
+    <End Role="Estados" Type="Self.Estados" Multiplicity="0..1" />
+    <End Role="Notas" Type="Self.Notas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="Notas">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notas__idUsuario__4222D4EF">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="Notas" Type="Self.Notas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="Notas">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reminder__idEsta__5629CD9C">
+    <End Role="Estados" Type="Self.Estados" Multiplicity="0..1" />
+    <End Role="Reminder" Type="Self.Reminder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="Reminder">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reminder__idNota__5535A963">
+    <End Role="Notas" Type="Self.Notas" Multiplicity="0..1" />
+    <End Role="Reminder" Type="Self.Reminder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Notas">
+        <PropertyRef Name="idNota" />
+      </Principal>
+      <Dependent Role="Reminder">
+        <PropertyRef Name="idNota" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reminder__idTipo__534D60F1">
+    <End Role="TipoUnidad" Type="Self.TipoUnidad" Multiplicity="0..1" />
+    <End Role="Reminder" Type="Self.Reminder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoUnidad">
+        <PropertyRef Name="idTipoUnidad" />
+      </Principal>
+      <Dependent Role="Reminder">
+        <PropertyRef Name="idTipoUnidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reminder__idTipo__5441852A">
+    <End Role="TipoFrecuencia" Type="Self.TipoFrecuencia" Multiplicity="0..1" />
+    <End Role="Reminder" Type="Self.Reminder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoFrecuencia">
+        <PropertyRef Name="idTipoFrecuencia" />
+      </Principal>
+      <Dependent Role="Reminder">
+        <PropertyRef Name="idTipoFrecuencia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tags__idEstado__46E78A0C">
+    <End Role="Estados" Type="Self.Estados" Multiplicity="0..1" />
+    <End Role="Tags" Type="Self.Tags" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="Tags">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TipoFrecu__idEst__5070F446">
+    <End Role="Estados" Type="Self.Estados" Multiplicity="0..1" />
+    <End Role="TipoFrecuencia" Type="Self.TipoFrecuencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="TipoFrecuencia">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TipoUnida__idEst__4D94879B">
+    <End Role="Estados" Type="Self.Estados" Multiplicity="0..1" />
+    <End Role="TipoUnidad" Type="Self.TipoUnidad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="TipoUnidad">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Usuarios__idEsta__3A81B327">
+    <End Role="Estados" Type="Self.Estados" Multiplicity="0..1" />
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estados">
+        <PropertyRef Name="idEstado" />
+      </Principal>
+      <Dependent Role="Usuarios">
+        <PropertyRef Name="idEstado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idNota_FK">
+    <End Role="Notas" Type="Self.Notas" Multiplicity="1" />
+    <End Role="NotaTag" Type="Self.NotaTag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Notas">
+        <PropertyRef Name="idNota" />
+      </Principal>
+      <Dependent Role="NotaTag">
+        <PropertyRef Name="idNota" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idTag_FK">
+    <End Role="Tags" Type="Self.Tags" Multiplicity="1" />
+    <End Role="NotaTag" Type="Self.NotaTag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tags">
+        <PropertyRef Name="idTag" />
+      </Principal>
+      <Dependent Role="NotaTag">
+        <PropertyRef Name="idTag" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StickyNotesModelStoreContainer">
+    <EntitySet Name="Categorias" EntityType="Self.Categorias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Estados" EntityType="Self.Estados" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notas" EntityType="Self.Notas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotaTag" EntityType="Self.NotaTag" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reminder" EntityType="Self.Reminder" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tags" EntityType="Self.Tags" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoFrecuencia" EntityType="Self.TipoFrecuencia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoUnidad" EntityType="Self.TipoUnidad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Categoria__idEst__3E52440B" Association="Self.FK__Categoria__idEst__3E52440B">
+      <End Role="Estados" EntitySet="Estados" />
+      <End Role="Categorias" EntitySet="Categorias" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Categoria__idUsu__3D5E1FD2" Association="Self.FK__Categoria__idUsu__3D5E1FD2">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Categorias" EntitySet="Categorias" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notas__idCategor__4316F928" Association="Self.FK__Notas__idCategor__4316F928">
+      <End Role="Categorias" EntitySet="Categorias" />
+      <End Role="Notas" EntitySet="Notas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notas__idEstado__440B1D61" Association="Self.FK__Notas__idEstado__440B1D61">
+      <End Role="Estados" EntitySet="Estados" />
+      <End Role="Notas" EntitySet="Notas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notas__idUsuario__4222D4EF" Association="Self.FK__Notas__idUsuario__4222D4EF">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Notas" EntitySet="Notas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reminder__idEsta__5629CD9C" Association="Self.FK__Reminder__idEsta__5629CD9C">
+      <End Role="Estados" EntitySet="Estados" />
+      <End Role="Reminder" EntitySet="Reminder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reminder__idNota__5535A963" Association="Self.FK__Reminder__idNota__5535A963">
+      <End Role="Notas" EntitySet="Notas" />
+      <End Role="Reminder" EntitySet="Reminder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reminder__idTipo__534D60F1" Association="Self.FK__Reminder__idTipo__534D60F1">
+      <End Role="TipoUnidad" EntitySet="TipoUnidad" />
+      <End Role="Reminder" EntitySet="Reminder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reminder__idTipo__5441852A" Association="Self.FK__Reminder__idTipo__5441852A">
+      <End Role="TipoFrecuencia" EntitySet="TipoFrecuencia" />
+      <End Role="Reminder" EntitySet="Reminder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tags__idEstado__46E78A0C" Association="Self.FK__Tags__idEstado__46E78A0C">
+      <End Role="Estados" EntitySet="Estados" />
+      <End Role="Tags" EntitySet="Tags" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TipoFrecu__idEst__5070F446" Association="Self.FK__TipoFrecu__idEst__5070F446">
+      <End Role="Estados" EntitySet="Estados" />
+      <End Role="TipoFrecuencia" EntitySet="TipoFrecuencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TipoUnida__idEst__4D94879B" Association="Self.FK__TipoUnida__idEst__4D94879B">
+      <End Role="Estados" EntitySet="Estados" />
+      <End Role="TipoUnidad" EntitySet="TipoUnidad" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Usuarios__idEsta__3A81B327" Association="Self.FK__Usuarios__idEsta__3A81B327">
+      <End Role="Estados" EntitySet="Estados" />
+      <End Role="Usuarios" EntitySet="Usuarios" />
+    </AssociationSet>
+    <AssociationSet Name="idNota_FK" Association="Self.idNota_FK">
+      <End Role="Notas" EntitySet="Notas" />
+      <End Role="NotaTag" EntitySet="NotaTag" />
+    </AssociationSet>
+    <AssociationSet Name="idTag_FK" Association="Self.idTag_FK">
+      <End Role="Tags" EntitySet="Tags" />
+      <End Role="NotaTag" EntitySet="NotaTag" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

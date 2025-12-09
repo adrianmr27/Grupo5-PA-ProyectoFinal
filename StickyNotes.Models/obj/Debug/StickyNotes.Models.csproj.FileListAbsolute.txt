@@ -1,0 +1,18 @@
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Models\bin\Debug\StickyNotes.Models.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Models\bin\Debug\StickyNotes.Models.pdb
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Models\obj\Debug\StickyNotes.Models.csproj.AssemblyReference.cache
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Models\obj\Debug\StickyNotes.Models.csproj.CoreCompileInputs.cache
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Models\obj\Debug\StickyNotes.Models.dll
+C:\Users\juank\Documents\VS Proyect\StickyNotes\StickyNotes.Models\obj\Debug\StickyNotes.Models.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Models\bin\Debug\StickyNotes.Models.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Models\bin\Debug\StickyNotes.Models.pdb
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.csproj.AssemblyReference.cache
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.csproj.CoreCompileInputs.cache
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.dll
+C:\Users\ALEJANDRO\Desktop\Programación avanzada\Proyecto\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Models\bin\Debug\StickyNotes.Models.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Models\bin\Debug\StickyNotes.Models.pdb
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.csproj.AssemblyReference.cache
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.csproj.CoreCompileInputs.cache
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.dll
+C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.pdb

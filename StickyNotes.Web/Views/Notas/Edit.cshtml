@@ -1,0 +1,145 @@
+﻿@model StickyNotes.Data.Notas
+
+@{
+    ViewBag.Title = "Editar Nota";
+}
+
+<h2 class="page-title">Editar Nota</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="edit-container">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.idNota)
+        @Html.HiddenFor(model => model.idUsuario) 
+        @Html.HiddenFor(model => model.fechaCreacion)
+        @Html.HiddenFor(model => model.fechaModificacion)
+        @Html.HiddenFor(model => model.idEstado)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.titulo, "Título", new { @class = "form-label" })
+            @Html.EditorFor(model => model.titulo, new { htmlAttributes = new { @class = "form-control", placeholder = "Escribe el título de la nota..." } })
+            @Html.ValidationMessageFor(model => model.titulo, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.contenido, "Contenido", new { @class = "form-label" })
+            @Html.TextAreaFor(model => model.contenido, new { @class = "form-control textarea", rows = 5, placeholder = "Escribe aquí el contenido de tu nota..." })
+            @Html.ValidationMessageFor(model => model.contenido, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group color-group">
+            @Html.LabelFor(model => model.color, "Color de la nota", new { @class = "form-label" })
+            @Html.EditorFor(model => model.color, new { htmlAttributes = new { @class = "form-control color-input", type = "color" } })
+            @Html.ValidationMessageFor(model => model.color, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.idCategoria, "Categoría", new { @class = "form-label" })
+            @Html.DropDownList("idCategoria", null, "-- Selecciona una categoría --", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.idCategoria, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-actions">
+            <input type="submit" value="Guardar Cambios" class="btn-save" />
+            @Html.ActionLink("Volver a la lista", "Index", null, new { @class = "btn-back" })
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    .page-title {
+        text-align: center;
+        margin-bottom: 25px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .edit-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 25px 30px;
+        border-radius: 15px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .form-group {
+        margin-bottom: 18px;
+    }
+
+    .form-label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 6px;
+        color: #444;
+    }
+
+    .form-control {
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 0.95rem;
+        transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+            outline: none;
+        }
+
+    .textarea {
+        resize: vertical;
+    }
+
+    .color-input {
+        height: 45px;
+        cursor: pointer;
+        padding: 4px;
+    }
+
+    .form-actions {
+        text-align: center;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .btn-save {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        font-weight: 600;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .btn-save:hover {
+            transform: translateY(-2px);
+        }
+
+    .btn-back {
+        background-color: #6c757d;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .btn-back:hover {
+            transform: translateY(-2px);
+        }
+</style>
