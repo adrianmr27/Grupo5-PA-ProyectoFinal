@@ -10,16 +10,15 @@ namespace StickyNotes.Core
 {
     public class NotasBusiness
     {
-
         private readonly IRepositoryNotas _repositoryNotas;
 
-        // Constructor
-        public NotasBusiness() {
+        // Constructor (UNO SOLO)
+        public NotasBusiness()
+        {
             _repositoryNotas = new RepositoryNotas();
-
         }
 
-        // Upsert (Update / Insert)
+        // Upsert (Insert / Update)
         public bool SaveOrUpdate(Notas notas)
         {
             if (notas.idNota <= 0)
@@ -32,7 +31,7 @@ namespace StickyNotes.Core
 
         public bool Delete(int id)
         {
-            _repositoryNotas.Delete(id); 
+            _repositoryNotas.Delete(id);
             return true;
         }
 
@@ -42,5 +41,24 @@ namespace StickyNotes.Core
                 ? _repositoryNotas.GetAll()
                 : new List<Notas>() { _repositoryNotas.GetById(id) };
         }
+
+        // =========================
+        // PIN / UNPIN
+        // =========================
+        public IEnumerable<Notas> GetNotasFijadas()
+        {
+            return _repositoryNotas.GetNotasFijadas();
+        }
+
+        public IEnumerable<Notas> GetNotasNoFijadas()
+        {
+            return _repositoryNotas.GetNotasNoFijadas();
+        }
+
+        public void TogglePin(int idNota)
+        {
+            _repositoryNotas.TogglePin(idNota);
+        }
     }
 }
+

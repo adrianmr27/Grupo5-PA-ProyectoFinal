@@ -13,5 +13,6 @@ namespace AdvancedProgramming.Data
 {
     public partial class Notas 
     {
+        public bool fijada { get; set; }
     }
 }

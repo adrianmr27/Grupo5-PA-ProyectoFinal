@@ -14,20 +14,37 @@ namespace StickyNotes.Web.Controllers
     {
         private StickyNotesEntities db = new StickyNotesEntities();
 
-        // GET: Notas
+        // ==============================
+        // LISTADO DE NOTAS
+        // ==============================
         public ActionResult Index()
         {
-            var notas = db.Notas.Include(n => n.Categorias).Include(n => n.Estados).Include(n => n.Usuarios);
-            return View(notas.ToList());
+            var notasFijadas = db.Notas
+                .Where(n => n.fijada)
+                .Include(n => n.Categorias)
+                .Include(n => n.Estados)
+                .Include(n => n.Usuarios)
+                .ToList();
+
+            var notasNoFijadas = db.Notas
+                .Where(n => !n.fijada)
+                .Include(n => n.Categorias)
+                .Include(n => n.Estados)
+                .Include(n => n.Usuarios)
+                .ToList();
+
+            ViewBag.NotasFijadas = notasFijadas;
+
+            return View(notasNoFijadas);
         }
 
-        // GET: Notas/Details/5
+        // ==============================
+        // DETALLES
+        // ==============================
         public ActionResult Details(int? id)
         {
             if (id == null)
-            {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
 
             var notas = db.Notas
                 .Include(n => n.Categorias)
@@ -36,14 +53,14 @@ namespace StickyNotes.Web.Controllers
                 .FirstOrDefault(n => n.idNota == id);
 
             if (notas == null)
-            {
                 return HttpNotFound();
-            }
+
             return View(notas);
         }
 
-
-        // GET: Notas/Create
+        // ==============================
+        // CREAR
+        // ==============================
         public ActionResult Create()
         {
             ViewBag.idCategoria = new SelectList(db.Categorias, "idCategoria", "nombre");
@@ -52,12 +69,9 @@ namespace StickyNotes.Web.Controllers
             return View();
         }
 
-        // POST: Notas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "idNota,titulo,contenido,color,idUsuario,idCategoria,idEstado")] Notas notas)
+        public ActionResult Create([Bind(Include = "idNota,titulo,contenido,color,idUsuario,idCategoria,idEstado,fijada")] Notas notas)
         {
             if (ModelState.IsValid)
             {
@@ -72,30 +86,28 @@ namespace StickyNotes.Web.Controllers
             return View(notas);
         }
 
-        // GET: Notas/Edit/5
+        // ==============================
+        // EDITAR
+        // ==============================
         public ActionResult Edit(int? id)
         {
             if (id == null)
-            {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Notas notas = db.Notas.Find(id);
+
+            var notas = db.Notas.Find(id);
             if (notas == null)
-            {
                 return HttpNotFound();
-            }
+
             ViewBag.idCategoria = new SelectList(db.Categorias, "idCategoria", "nombre", notas.idCategoria);
             ViewBag.idEstado = new SelectList(db.Estados, "idEstado", "estado", notas.idEstado);
             ViewBag.idUsuario = new SelectList(db.Usuarios, "idUsuario", "nombre", notas.idUsuario);
+
             return View(notas);
         }
 
-        // POST: Notas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "idNota,titulo,contenido,color,fechaCreacion,fechaModificacion,idUsuario,idCategoria,idEstado")] Notas notas)
+        public ActionResult Edit([Bind(Include = "idNota,titulo,contenido,color,fechaCreacion,fechaModificacion,idUsuario,idCategoria,idEstado,fijada")] Notas notas)
         {
             if (ModelState.IsValid)
             {
@@ -103,19 +115,21 @@ namespace StickyNotes.Web.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
             ViewBag.idCategoria = new SelectList(db.Categorias, "idCategoria", "nombre", notas.idCategoria);
             ViewBag.idEstado = new SelectList(db.Estados, "idEstado", "estado", notas.idEstado);
             ViewBag.idUsuario = new SelectList(db.Usuarios, "idUsuario", "nombre", notas.idUsuario);
+
             return View(notas);
         }
 
-        // GET: Notas/Delete/5
+        // ==============================
+        // ELIMINAR
+        // ==============================
         public ActionResult Delete(int? id)
         {
             if (id == null)
-            {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
 
             var notas = db.Notas
                 .Include(n => n.Categorias)
@@ -124,23 +138,10 @@ namespace StickyNotes.Web.Controllers
                 .FirstOrDefault(n => n.idNota == id);
 
             if (notas == null)
-            {
                 return HttpNotFound();
-            }
+
             return View(notas);
         }
-
-
-        //// POST: Notas/Delete/5
-        //[HttpPost, ActionName("Delete")]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult DeleteConfirmed(int id)
-        //{
-        //    Notas notas = db.Notas.Find(id);
-        //    db.Notas.Remove(notas);
-        //    db.SaveChanges();
-        //    return RedirectToAction("Index");
-        //}
 
         [HttpPost]
         public ActionResult DeleteConfirmed(int id)
@@ -149,22 +150,49 @@ namespace StickyNotes.Web.Controllers
             {
                 var nota = db.Notas.Find(id);
                 if (nota == null)
-                {
                     return HttpNotFound();
-                }
 
                 db.Notas.Remove(nota);
                 db.SaveChanges();
 
-                return new HttpStatusCodeResult(System.Net.HttpStatusCode.OK);
+                return new HttpStatusCodeResult(HttpStatusCode.OK);
             }
             catch (Exception ex)
             {
-                return new HttpStatusCodeResult(System.Net.HttpStatusCode.InternalServerError, ex.Message);
+                return new HttpStatusCodeResult(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
 
+        // ==============================
+        // FIJAR / DESFIJAR (PIN)
+        // ==============================
+        [HttpPost]
+        public ActionResult TogglePin(int id)
+        {
+            var nota = db.Notas.Find(id);
 
+            if (nota == null)
+                return HttpNotFound();
 
+            nota.fijada = !nota.fijada;
+            db.SaveChanges();
+
+            return new HttpStatusCodeResult(HttpStatusCode.OK);
+        }
+
+        // ==============================
+        // NOTAS FIJADAS
+        // ==============================
+        public ActionResult Pinned()
+        {
+            var notasFijadas = db.Notas
+                .Where(n => n.fijada)
+                .Include(n => n.Categorias)
+                .Include(n => n.Estados)
+                .Include(n => n.Usuarios)
+                .ToList();
+
+            return View(notasFijadas);
+        }
     }
 }

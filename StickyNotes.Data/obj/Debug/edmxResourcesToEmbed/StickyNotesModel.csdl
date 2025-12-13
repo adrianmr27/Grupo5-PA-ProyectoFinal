@@ -45,6 +45,7 @@
     <NavigationProperty Name="Usuarios" Relationship="Self.FK__Notas__idUsuario__4222D4EF" FromRole="Notas" ToRole="Usuarios" />
     <NavigationProperty Name="Reminder" Relationship="Self.FK__Reminder__idNota__5535A963" FromRole="Notas" ToRole="Reminder" />
     <NavigationProperty Name="Tags" Relationship="Self.NotaTag" FromRole="Notas" ToRole="Tags" />
+    <Property Name="fijada" Type="Boolean" Nullable="false" />
   </EntityType>
   <EntityType Name="Reminder">
     <Key>

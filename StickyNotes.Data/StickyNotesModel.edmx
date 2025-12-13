@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="StickyNotesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="StickyNotesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Categorias">
           <Key>
             <PropertyRef Name="idCategoria" />
@@ -35,6 +35,7 @@
           <Property Name="idUsuario" Type="int" />
           <Property Name="idCategoria" Type="int" />
           <Property Name="idEstado" Type="int" />
+          <Property Name="fijada" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="NotaTag">
           <Key>
@@ -347,8 +348,7 @@
             <End Role="NotaTag" EntitySet="NotaTag" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="StickyNotesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -397,6 +397,7 @@
           <NavigationProperty Name="Usuarios" Relationship="Self.FK__Notas__idUsuario__4222D4EF" FromRole="Notas" ToRole="Usuarios" />
           <NavigationProperty Name="Reminder" Relationship="Self.FK__Reminder__idNota__5535A963" FromRole="Notas" ToRole="Reminder" />
           <NavigationProperty Name="Tags" Relationship="Self.NotaTag" FromRole="Notas" ToRole="Tags" />
+          <Property Name="fijada" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="Reminder">
           <Key>
@@ -717,6 +718,7 @@
           <EntitySetMapping Name="Notas">
             <EntityTypeMapping TypeName="StickyNotesModel.Notas">
               <MappingFragment StoreEntitySet="Notas">
+                <ScalarProperty Name="fijada" ColumnName="fijada" />
                 <ScalarProperty Name="idNota" ColumnName="idNota" />
                 <ScalarProperty Name="titulo" ColumnName="titulo" />
                 <ScalarProperty Name="contenido" ColumnName="contenido" />

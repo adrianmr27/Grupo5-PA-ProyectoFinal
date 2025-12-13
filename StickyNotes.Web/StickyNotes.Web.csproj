@@ -346,6 +346,8 @@
     <Content Include="Views\Reminders\Details.cshtml" />
     <Content Include="Views\Reminders\Edit.cshtml" />
     <Content Include="Views\Reminders\Index.cshtml" />
+    <Content Include="Views\Notas Fijadas\Index.cshtml" />
+    <Content Include="Views\Notas\Pinned.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -18,10 +18,10 @@
     }
 
     .note-card {
-        width: 250px;
-        min-height: 160px;
-        padding: 15px;
-        border-radius: 12px;
+        width: 280px;
+        min-height: 240px; /* 🔥 MÁS ALTA */
+        padding: 16px;
+        border-radius: 14px;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         display: flex;
         flex-direction: column;
@@ -47,6 +47,7 @@
     }
 
     .note-footer {
+        margin-top: auto; /* 🔥 asegura que el footer no se salga */
         font-size: 0.8rem;
         display: flex;
         justify-content: space-between;
@@ -69,21 +70,24 @@
     .note-actions {
         display: flex;
         gap: 6px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
     }
 
     .btn-action {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 90px;
+        width: 85px;
         height: 32px;
         border-radius: 6px;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         font-weight: 600;
         text-decoration: none;
         color: #fff;
         border: none;
         transition: transform 0.2s ease-in-out;
+        cursor: pointer;
     }
 
         .btn-action:hover {
@@ -98,10 +102,14 @@
         background-color: #dc3545;
     }
 
+    .btn-pin {
+        background-color: #28a745;
+    }
+
     .btn-primary {
         background-color: #007bff;
         border: none;
-        padding: 8px 12px;
+        padding: 8px 14px;
         border-radius: 6px;
         color: white;
         font-weight: 600;
@@ -121,17 +129,30 @@
                 <div class="note-title">@item.titulo</div>
                 <div class="note-content">@item.contenido</div>
             </div>
+
             <div class="note-footer">
                 <div class="note-meta">
-                    <span><strong>@(item.Categorias != null ? item.Categorias.nombre : "Sin categoría")</strong></span>
+                    <span>
+                        <strong>
+                            @(item.Categorias != null ? item.Categorias.nombre : "Sin categoría")
+                        </strong>
+                    </span>
+
                     @if (item.fechaCreacion.HasValue)
                     {
-                        <span class="note-date">@item.fechaCreacion.Value.ToString("d MMM").ToLower()</span>
+                        <span class="note-date">
+                            @item.fechaCreacion.Value.ToString("d MMM").ToLower()
+                        </span>
                     }
                 </div>
+
                 <div class="note-actions">
                     @Html.ActionLink("✏️ Editar", "Edit", new { id = item.idNota }, new { @class = "btn-action btn-edit" })
                     <a href="#" class="btn-action btn-delete" data-id="@item.idNota">🗑️ Eliminar</a>
+
+                    <button class="btn-action btn-pin pin-btn" data-id="@item.idNota">
+                        📌 Fijar
+                    </button>
                 </div>
             </div>
         </div>
@@ -142,3 +163,18 @@
     <script src="~/Scripts/ScriptDelete.js"></script>
 }
 
+<script>
+    document.querySelectorAll(".pin-btn").forEach(btn => {
+        btn.addEventListener("click", function () {
+            const id = this.dataset.id;
+
+            fetch('/Notas/TogglePin', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: `id=${id}`
+            }).then(() => location.reload());
+        });
+    });
+</script>

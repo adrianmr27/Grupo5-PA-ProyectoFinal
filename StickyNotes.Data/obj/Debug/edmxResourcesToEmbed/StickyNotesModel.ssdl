@@ -30,6 +30,7 @@
     <Property Name="idUsuario" Type="int" />
     <Property Name="idCategoria" Type="int" />
     <Property Name="idEstado" Type="int" />
+    <Property Name="fijada" Type="bit" Nullable="false" />
   </EntityType>
   <EntityType Name="NotaTag">
     <Key>

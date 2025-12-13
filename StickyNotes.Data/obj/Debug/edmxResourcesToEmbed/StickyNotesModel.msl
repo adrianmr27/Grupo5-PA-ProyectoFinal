@@ -23,6 +23,7 @@
     <EntitySetMapping Name="Notas">
       <EntityTypeMapping TypeName="StickyNotesModel.Notas">
         <MappingFragment StoreEntitySet="Notas">
+          <ScalarProperty Name="fijada" ColumnName="fijada" />
           <ScalarProperty Name="idNota" ColumnName="idNota" />
           <ScalarProperty Name="titulo" ColumnName="titulo" />
           <ScalarProperty Name="contenido" ColumnName="contenido" />

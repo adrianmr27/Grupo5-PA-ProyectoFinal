@@ -16,3 +16,9 @@ C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Mo
 C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.csproj.CoreCompileInputs.cache
 C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.dll
 C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Models\obj\Debug\StickyNotes.Models.pdb
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Models\bin\Debug\StickyNotes.Models.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Models\bin\Debug\StickyNotes.Models.pdb
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Models\obj\Debug\StickyNotes.Models.csproj.AssemblyReference.cache
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Models\obj\Debug\StickyNotes.Models.csproj.CoreCompileInputs.cache
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Models\obj\Debug\StickyNotes.Models.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Models\obj\Debug\StickyNotes.Models.pdb

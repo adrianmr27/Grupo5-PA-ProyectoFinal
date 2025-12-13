@@ -34,3 +34,15 @@ C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Da
 C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Data\obj\Debug\StickyNo.D54FC292.Up2Date
 C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Data\obj\Debug\StickyNotes.Data.dll
 C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Data\obj\Debug\StickyNotes.Data.pdb
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\bin\Debug\StickyNotes.Data.dll.config
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\bin\Debug\StickyNotes.Data.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\bin\Debug\StickyNotes.Data.pdb
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\bin\Debug\EntityFramework.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\bin\Debug\EntityFramework.xml
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\obj\Debug\StickyNotes.Data.csproj.AssemblyReference.cache
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\obj\Debug\StickyNotes.Data.csproj.CoreCompileInputs.cache
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\obj\Debug\StickyNo.D54FC292.Up2Date
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\obj\Debug\StickyNotes.Data.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Data\obj\Debug\StickyNotes.Data.pdb

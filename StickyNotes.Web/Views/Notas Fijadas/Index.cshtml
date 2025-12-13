@@ -1,0 +1,43 @@
+﻿@model IEnumerable<StickyNotes.Data.Notas>
+
+@{
+    ViewBag.Title = "Notas Fijadas";
+}
+
+<h2>📌 Notas Fijadas</h2>
+
+<p>
+    @Html.ActionLink("⬅ Volver a Mis Notas", "Index", "Notas", null, new { @class = "btn btn-secondary" })
+</p>
+
+<div class="notes-container">
+    @foreach (var item in Model)
+    {
+        <div class="note-card" style="background-color:@item.color; border: 2px solid #000;">
+            <div class="note-title">@item.titulo</div>
+            <div class="note-content">@item.contenido</div>
+
+            <div class="note-actions">
+                <button class="btn-action btn-edit pin-btn" data-id="@item.idNota">
+                    📌 Desfijar
+                </button>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    document.querySelectorAll(".pin-btn").forEach(btn => {
+        btn.addEventListener("click", function () {
+            const id = this.dataset.id;
+
+            fetch('/Notas/TogglePin', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: `id=${id}`
+            }).then(() => location.reload());
+        });
+    });
+</script>

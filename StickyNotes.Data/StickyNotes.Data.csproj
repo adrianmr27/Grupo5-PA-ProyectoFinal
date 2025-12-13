@@ -75,6 +75,7 @@
     <Compile Include="Reminder.cs">
       <DependentUpon>StickyNotesModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Repositories\IRepositoryNotas.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\RepositoryEstados.cs" />
     <Compile Include="Repositories\RepositoryTags.cs" />

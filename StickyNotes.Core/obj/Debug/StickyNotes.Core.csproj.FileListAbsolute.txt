@@ -34,3 +34,15 @@ C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Co
 C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNo.E4BA963E.Up2Date
 C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.dll
 C:\Users\adria\Downloads\StickyNotes\StickyNotes\StickyNotes-main\StickyNotes.Core\obj\Debug\StickyNotes.Core.pdb
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\bin\Debug\StickyNotes.Core.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\bin\Debug\StickyNotes.Core.pdb
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\bin\Debug\StickyNotes.Data.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\bin\Debug\EntityFramework.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\bin\Debug\StickyNotes.Data.pdb
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\bin\Debug\StickyNotes.Data.dll.config
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\bin\Debug\EntityFramework.xml
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\obj\Debug\StickyNotes.Core.csproj.AssemblyReference.cache
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\obj\Debug\StickyNotes.Core.csproj.CoreCompileInputs.cache
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\obj\Debug\StickyNo.E4BA963E.Up2Date
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\obj\Debug\StickyNotes.Core.dll
+C:\Users\Cheryl\Documents\GitHub\Grupo5-PA-ProyectoFinal\StickyNotes.Core\obj\Debug\StickyNotes.Core.pdb
