@@ -9,17 +9,26 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function eliminarNota(id) {
-    if (confirm("¿Seguro que deseas eliminar esta nota?")) {
+    if (confirm("Â¿Seguro que deseas eliminar esta nota?")) {
+        // Usar el mismo enfoque que TogglePin
         fetch(`/Notas/DeleteConfirmed/${id}`, {
-            method: "POST"
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]')?.value || ''
+            },
+            body: `id=${id}`
         })
-            .then(response => {
-                if (response.ok) {
-                    document.querySelector(`.btn-delete[data-id="${id}"]`).closest(".note-card").remove();
-                } else {
-                    alert("Error al eliminar la nota.");
-                }
-            })
-            .catch(error => console.error("Error:", error));
+        .then(response => {
+            if (response.ok || response.redirected) {
+                location.reload();
+            } else {
+                alert("Error al eliminar la nota.");
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            alert("Error al eliminar la nota.");
+        });
     }
 }

@@ -39,19 +39,21 @@ namespace StickyNotes.Web.Controllers
         {
             int idUsuario = GetUsuarioId();
 
+            // Excluir notas con estado Inactivo (idEstado = 2) de "Mis Notas"
             var notasFijadas = db.Notas
-                .Where(n => n.fijada && n.idUsuario == idUsuario)
+                .Where(n => n.fijada && n.idUsuario == idUsuario && (n.idEstado == null || n.idEstado != 2))
                 .Include(n => n.Categorias)
                 .Include(n => n.Estados)
                 .ToList();
 
             var notasNoFijadas = db.Notas
-                .Where(n => !n.fijada && n.idUsuario == idUsuario)
+                .Where(n => !n.fijada && n.idUsuario == idUsuario && (n.idEstado == null || n.idEstado != 2))
                 .Include(n => n.Categorias)
                 .Include(n => n.Estados)
                 .ToList();
 
             ViewBag.NotasFijadas = notasFijadas;
+            ViewBag.IdEstadoCompletado = 2; // Para mostrar/ocultar el botón
             return View(notasNoFijadas);
         }
 
@@ -171,7 +173,6 @@ namespace StickyNotes.Web.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
             int idUsuario = GetUsuarioId();
@@ -221,9 +222,66 @@ namespace StickyNotes.Web.Controllers
 
             var notasFijadas = db.Notas
                 .Where(n => n.fijada && n.idUsuario == idUsuario)
+                .Include(n => n.Categorias)
+                .Include(n => n.Estados)
                 .ToList();
 
             return View(notasFijadas);
+        }
+
+        // ==============================
+        // MARCAR COMO COMPLETADA
+        // ==============================
+        [Authorize]
+        [HttpPost]
+        public ActionResult ToggleComplete(int id)
+        {
+            int idUsuario = GetUsuarioId();
+
+            var nota = db.Notas
+                .FirstOrDefault(n => n.idNota == id && n.idUsuario == idUsuario);
+
+            if (nota == null)
+                return new HttpStatusCodeResult(HttpStatusCode.NotFound);
+
+            // Actualizar la nota a estado Inactivo (idEstado = 2)
+            nota.idEstado = 2; // Inactivo
+            nota.fechaModificacion = DateTime.Now;
+
+            db.SaveChanges();
+
+            return new HttpStatusCodeResult(HttpStatusCode.OK);
+        }
+
+        // ==============================
+        // NOTAS COMPLETADAS
+        // ==============================
+        [Authorize]
+        public ActionResult Completed(string search = "")
+        {
+            int idUsuario = GetUsuarioId();
+
+            // Obtener todas las notas con estado Inactivo (idEstado = 2) del usuario
+            var query = db.Notas
+                .Where(n => n.idEstado == 2 && n.idUsuario == idUsuario)
+                .Include(n => n.Categorias)
+                .Include(n => n.Estados);
+
+            // Filtrar por búsqueda si se proporciona
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                query = query.Where(n => 
+                    (n.titulo != null && n.titulo.Contains(search)) || 
+                    (n.contenido != null && n.contenido.Contains(search)) ||
+                    (n.Categorias != null && n.Categorias.nombre != null && n.Categorias.nombre.Contains(search))
+                );
+            }
+
+            // Ordenar después del filtro
+            var notasCompletadas = query.OrderByDescending(n => n.fechaModificacion ?? n.fechaCreacion ?? DateTime.MinValue);
+
+            ViewBag.SearchTerm = search;
+            return View(notasCompletadas.ToList());
         }
     }
 }

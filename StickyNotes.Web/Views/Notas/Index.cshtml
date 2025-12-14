@@ -106,6 +106,10 @@
         background-color: #28a745;
     }
 
+    .btn-complete {
+        background-color: #17a2b8;
+    }
+
     .btn-primary {
         background-color: #007bff;
         border: none;
@@ -153,17 +157,31 @@
                     <button class="btn-action btn-pin pin-btn" data-id="@item.idNota">
                         📌 Fijar
                     </button>
+                    
+                    @{
+                        // Mostrar botón solo si la nota no está completada (idEstado != 2)
+                        bool mostrarBoton = !item.idEstado.HasValue || item.idEstado.Value != 2;
+                    }
+                    @if (mostrarBoton)
+                    {
+                        <button class="btn-action btn-complete complete-btn" data-id="@item.idNota" type="button">
+                            Completada
+                        </button>
+                    }
                 </div>
             </div>
         </div>
     }
 </div>
 
+@Html.AntiForgeryToken()
+
 @section scripts {
     <script src="~/Scripts/ScriptDelete.js"></script>
 }
 
 <script>
+    // Botón Fijar (funciona correctamente)
     document.querySelectorAll(".pin-btn").forEach(btn => {
         btn.addEventListener("click", function () {
             const id = this.dataset.id;
@@ -173,8 +191,24 @@
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded'
                 },
-                body: `id=${id}`
+                body: 'id=' + id
+            }).then(() => location.reload());
+        });
+    });
+
+    // Botón Completada - usar exactamente el mismo patrón que TogglePin
+    document.querySelectorAll(".complete-btn").forEach(btn => {
+        btn.addEventListener("click", function () {
+            const id = this.dataset.id;
+
+            fetch('/Notas/ToggleComplete', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: 'id=' + id
             }).then(() => location.reload());
         });
     });
 </script>
+
