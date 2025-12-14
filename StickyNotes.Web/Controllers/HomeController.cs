@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace StickyNotes.Web.Controllers
 {
+    [AllowAnonymous]
     public class HomeController : Controller
     {
 

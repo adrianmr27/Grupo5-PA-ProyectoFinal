@@ -83,12 +83,10 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                 <ul class="navbar-nav flex-grow-1">
                     <li>@Html.ActionLink("Inicio", "Index", "Home", null, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Usuarios", "Index", "Usuarios", null, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Mis Notas", "Index", "Notas", null, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Nueva Nota", "Create", "Notas", null, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Notas Fijadas", "Pinned", "Notas", null, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Completadas", "Completed", "Notas", null, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Recordatorios", "Reminders", "Notas", null, new { @class = "nav-link" })</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

@@ -75,5 +75,12 @@ namespace StickyNotes.Data.Repository
             _context.SaveChanges();
         }
 
+        public Usuarios GetByEmail(string email)
+        {
+            return _context.Set<Usuarios>()
+                .FirstOrDefault(u => u.correo == email);
+        }
+
+
     }
 }

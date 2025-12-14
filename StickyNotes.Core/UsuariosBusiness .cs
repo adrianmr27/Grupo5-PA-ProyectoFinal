@@ -51,5 +51,10 @@ namespace StickyNotes.Core
             return _repositoryUsuarios.GetById(id);
         }
 
+        public Usuarios GetByEmail(string email)
+        {
+            return _repositoryUsuarios.GetByEmail(email);
+        }
+
     }
 }

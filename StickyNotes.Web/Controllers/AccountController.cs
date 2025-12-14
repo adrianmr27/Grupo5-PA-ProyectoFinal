@@ -8,6 +8,8 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using StickyNotes.Data;
+using StickyNotes.Core;
 using StickyNotes.Web.Models;
 
 namespace StickyNotes.Web.Controllers
@@ -17,28 +19,6 @@ namespace StickyNotes.Web.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
-
-        public AccountController()
-        {
-        }
-
-        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
-        {
-            UserManager = userManager;
-            SignInManager = signInManager;
-        }
-
-        public ApplicationSignInManager SignInManager
-        {
-            get
-            {
-                return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
-            }
-            private set 
-            { 
-                _signInManager = value; 
-            }
-        }
 
         public ApplicationUserManager UserManager
         {
@@ -52,6 +32,19 @@ namespace StickyNotes.Web.Controllers
             }
         }
 
+        public ApplicationSignInManager SignInManager
+        {
+            get
+            {
+                return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
+            }
+            private set
+            {
+                _signInManager = value;
+            }
+        }
+
+
         //
         // GET: /Account/Login
         [AllowAnonymous]
@@ -61,6 +54,7 @@ namespace StickyNotes.Web.Controllers
             return View();
         }
 
+
         //
         // POST: /Account/Login
         [HttpPost]
@@ -69,24 +63,52 @@ namespace StickyNotes.Web.Controllers
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
             if (!ModelState.IsValid)
-            {
                 return View(model);
-            }
 
-            // This doesn't count login failures towards account lockout
-            // To enable password failures to trigger account lockout, change to shouldLockout: true
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
+            var result = await SignInManager.PasswordSignInAsync(
+                model.Email,
+                model.Password,
+                model.RememberMe,
+                shouldLockout: false);
+
             switch (result)
             {
                 case SignInStatus.Success:
-                    return RedirectToLocal(returnUrl);
+
+                    var identityUser = await UserManager.FindByEmailAsync(model.Email);
+                    if (identityUser == null)
+                    {
+                        ModelState.AddModelError("", "Usuario no válido.");
+                        return View(model);
+                    }
+
+                    // Sincronizar a BD StickyNotes
+                    var usuariosBusiness = new UsuariosBusiness();
+                    var usuario = usuariosBusiness.GetByEmail(identityUser.Email);
+
+                    if (usuario == null)
+                    {
+                        usuariosBusiness.SaveOrUpdate(new Usuarios
+                        {
+                            correo = identityUser.Email,
+                            nombreUsuario = identityUser.Email,
+                            fechaRegistro = DateTime.Now,
+                            idEstado = 1
+                        });
+                    }
+
+                    // Redirección
+                    return RedirectToAction("Index", "Home");
                 case SignInStatus.LockedOut:
                     return View("Lockout");
+
                 case SignInStatus.RequiresVerification:
-                    return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
+                    return RedirectToAction("SendCode",
+                        new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
+
                 case SignInStatus.Failure:
                 default:
-                    ModelState.AddModelError("", "Invalid login attempt.");
+                    ModelState.AddModelError("", "Credenciales inválidas.");
                     return View(model);
             }
         }
@@ -149,28 +171,41 @@ namespace StickyNotes.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
-            if (ModelState.IsValid)
-            {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
-                var result = await UserManager.CreateAsync(user, model.Password);
-                if (result.Succeeded)
-                {
-                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
-                    
-                    // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=320771
-                    // Send an email with this link
-                    // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
-                    // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
-                    // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
+            if (!ModelState.IsValid)
+                return View(model);
 
-                    return RedirectToAction("Index", "Home");
-                }
+            // 1️ Crear usuario Identity
+            var identityUser = new ApplicationUser
+            {
+                UserName = model.Email,
+                Email = model.Email
+            };
+
+            var result = await UserManager.CreateAsync(identityUser, model.Password);
+
+            if (!result.Succeeded)
+            {
                 AddErrors(result);
+                return View(model);
             }
 
-            // If we got this far, something failed, redisplay form
-            return View(model);
+            // 2️ Crear usuario en StickyNotes
+            var usuariosBusiness = new UsuariosBusiness();
+            usuariosBusiness.SaveOrUpdate(new Usuarios
+            {
+                correo = model.Email,
+                nombreUsuario = model.Email,
+                fechaRegistro = DateTime.Now,
+                idEstado = 1
+            });
+
+            // 3️ Login automático
+            await SignInManager.SignInAsync(identityUser, isPersistent: false, rememberBrowser: false);
+
+            // 4️ Redirigir al Web
+            return RedirectToAction("Index", "Home");
         }
+
 
         //
         // GET: /Account/ConfirmEmail

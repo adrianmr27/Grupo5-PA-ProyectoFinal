@@ -1,118 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\",
+  "WorkspaceRootPath": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\cheryl\\documents\\github\\grupo5-pa-proyectofinal\\stickynotes.web\\views\\notas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\notas fijadas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas fijadas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\notas\\pinned.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\pinned.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\notas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.core\\notasbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|solutionrelative:stickynotes.core\\notasbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\repositories\\repositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\repositories\\repositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\stickynotesmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\stickynotesmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\repositories\\repositorytags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\repositories\\repositorytags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\repositories\\irepositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\repositories\\irepositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\entities\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\entities\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\tags\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\tags\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\scripts\\scriptdelete.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\scripts\\scriptdelete.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.core\\usuariosbusiness .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\stickynotes.core\\usuariosbusiness .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|solutionrelative:stickynotes.core\\usuariosbusiness .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\entities\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\entities\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.web\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\stickynotes.web\\views\\notas\\pinned.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\pinned.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\stickynotes.data\\repositories\\irepositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\repositories\\irepositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,32 +34,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 486,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 1,
               "Title": "UsuariosBusiness .cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Core\\UsuariosBusiness .cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Core\\UsuariosBusiness .cs",
               "RelativeDocumentMoniker": "StickyNotes.Core\\UsuariosBusiness .cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Core\\UsuariosBusiness .cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Core\\UsuariosBusiness .cs",
               "RelativeToolTip": "StickyNotes.Core\\UsuariosBusiness .cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T05:47:38.092Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -158,329 +63,77 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pinned.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-13T02:54:56.618Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NotasBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Core\\NotasBusiness.cs",
-              "RelativeDocumentMoniker": "StickyNotes.Core\\NotasBusiness.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Core\\NotasBusiness.cs",
-              "RelativeToolTip": "StickyNotes.Core\\NotasBusiness.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:02:52.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotasController.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Controllers\\NotasController.cs",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Controllers\\NotasController.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Controllers\\NotasController.cs",
-              "RelativeToolTip": "StickyNotes.Web\\Controllers\\NotasController.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAmwMMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T19:05:41.596Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwDkAAAAOAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T19:16:47.198Z"
+              "WhenOpened": "2025-12-14T15:57:01.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas Fijadas\\Index.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas Fijadas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas Fijadas\\Index.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas Fijadas\\Index.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-13T02:05:29.546Z"
+              "DocumentIndex": 3,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "StickyNotes.Web\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T15:53:22.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas\\Index.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas\\Index.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Index.cshtml",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAcwKsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T19:18:31.499Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "StickyNotes.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T15:51:06.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAcwG8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Pinned.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T18:49:41.858Z"
+              "WhenOpened": "2025-12-13T02:54:56.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas\\Edit.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Edit.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T19:22:34.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RepositoryNotas.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Repositories\\RepositoryNotas.cs",
-              "RelativeDocumentMoniker": "StickyNotes.Data\\Repositories\\RepositoryNotas.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Repositories\\RepositoryNotas.cs",
-              "RelativeToolTip": "StickyNotes.Data\\Repositories\\RepositoryNotas.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:10:47.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RepositoryTags.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Repositories\\RepositoryTags.cs",
-              "RelativeDocumentMoniker": "StickyNotes.Data\\Repositories\\RepositoryTags.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Repositories\\RepositoryTags.cs",
-              "RelativeToolTip": "StickyNotes.Data\\Repositories\\RepositoryTags.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T02:16:19.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StickyNotesModel.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\StickyNotesModel.edmx",
-              "RelativeDocumentMoniker": "StickyNotes.Data\\StickyNotesModel.edmx",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\StickyNotesModel.edmx [Diagram1]",
-              "RelativeToolTip": "StickyNotes.Data\\StickyNotesModel.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-12-13T02:20:32.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Repositories\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "StickyNotes.Data\\Repositories\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Repositories\\RepositoryBase.cs",
-              "RelativeToolTip": "StickyNotes.Data\\Repositories\\RepositoryBase.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T02:12:47.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Tags\\Index.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Tags\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Tags\\Index.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Tags\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-13T02:00:28.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Notas.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Entities\\Notas.cs",
-              "RelativeDocumentMoniker": "StickyNotes.Data\\Entities\\Notas.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Entities\\Notas.cs",
-              "RelativeToolTip": "StickyNotes.Data\\Entities\\Notas.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:10:01.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "IRepositoryNotas.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Repositories\\IRepositoryNotas.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Data\\Repositories\\IRepositoryNotas.cs",
               "RelativeDocumentMoniker": "StickyNotes.Data\\Repositories\\IRepositoryNotas.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Repositories\\IRepositoryNotas.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Data\\Repositories\\IRepositoryNotas.cs",
               "RelativeToolTip": "StickyNotes.Data\\Repositories\\IRepositoryNotas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:12:38.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Global.asax",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Global.asax",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Global.asax",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Global.asax",
-              "RelativeToolTip": "StickyNotes.Web\\Global.asax",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000179|",
-              "WhenOpened": "2025-11-08T19:12:25.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Web.config",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Web.config",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Web.config",
-              "RelativeToolTip": "StickyNotes.Web\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-12-13T00:43:55.086Z",
+              "WhenOpened": "2025-12-13T01:12:38.289Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ScriptDelete.js",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Scripts\\ScriptDelete.js",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Scripts\\ScriptDelete.js",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Scripts\\ScriptDelete.js",
-              "RelativeToolTip": "StickyNotes.Web\\Scripts\\ScriptDelete.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-08T18:50:18.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "App.Config",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\App.Config",
-              "RelativeDocumentMoniker": "StickyNotes.Data\\App.Config",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\App.Config",
-              "RelativeToolTip": "StickyNotes.Data\\App.Config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-12-13T00:44:40.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Web.config",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Web.config",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Web.config",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-12-13T00:45:21.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Global.asax.cs",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Global.asax.cs",
-              "RelativeToolTip": "StickyNotes.Web\\Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T19:12:26.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas\\Create.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Notas\\Create.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Create.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAswBkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T19:14:58.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T19:12:29.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T19:13:33.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Entities\\Usuarios.cs",
-              "RelativeDocumentMoniker": "StickyNotes.Data\\Entities\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Entities\\Usuarios.cs",
-              "RelativeToolTip": "StickyNotes.Data\\Entities\\Usuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T06:06:10.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "StickyNotes.Web\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-02T06:03:51.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Usuarios.cs",
-              "RelativeDocumentMoniker": "StickyNotes.Data\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\Cheryl\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Data\\Usuarios.cs",
-              "RelativeToolTip": "StickyNotes.Data\\Usuarios.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T04:58:03.583Z"
             }
           ]
         }

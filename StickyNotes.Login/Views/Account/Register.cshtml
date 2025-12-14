@@ -1,0 +1,86 @@
+﻿@using StickyNotes.Login.Models
+@model RegisterViewModel
+
+@{
+    ViewBag.Title = "Crear cuenta";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="card shadow-lg border-0 rounded-4" style="width: 28rem;">
+        <div class="card-body p-5">
+            <h3 class="text-center mb-3 text-dark fw-bold">
+                <i class="bi bi-person-plus"></i> Crear cuenta
+            </h3>
+            <h6 class="text-center text-secondary mb-4">
+                Únete a Sticky Notes y organiza tus ideas fácilmente
+            </h6>
+
+            @using (Html.BeginForm("Register", "Account",
+                FormMethod.Post, new { role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">
+                        <i class="bi bi-envelope me-1"></i> Correo electrónico
+                    </label>
+                    @Html.TextBoxFor(m => m.Email,
+                        new
+                             {
+                            @class = "form-control form-control-lg rounded-3",
+                            placeholder = "ejemplo@correo.com",
+                            autocomplete = "username"
+                        })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger small" })
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">
+                        <i class="bi bi-lock me-1"></i> Contraseña
+                    </label>
+                    @Html.PasswordFor(m => m.Password,
+                        new
+                             {
+                            @class = "form-control form-control-lg rounded-3",
+                            placeholder = "•••••••••••",
+                            autocomplete = "new-password"
+                        })
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger small" })
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label fw-semibold">
+                        <i class="bi bi-shield-check me-1"></i> Confirmar contraseña
+                    </label>
+                    @Html.PasswordFor(m => m.ConfirmPassword,
+                        new
+                             {
+                            @class = "form-control form-control-lg rounded-3",
+                            placeholder = "Repite tu contraseña",
+                            autocomplete = "new-password"
+                        })
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger small" })
+                </div>
+
+                <button type="submit"
+                        class="btn btn-dark btn-lg w-100 rounded-3 shadow-sm mb-3">
+                    <i class="bi bi-check-circle me-1"></i> Crear cuenta
+                </button>
+
+                <div class="text-center">
+                    <p class="mb-1">
+                        ¿Ya tienes una cuenta?
+                        @Html.ActionLink("Inicia sesión", "Login", "Account",
+                            null, new { @class = "fw-semibold text-decoration-none" })
+                    </p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+}

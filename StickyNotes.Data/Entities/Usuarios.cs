@@ -11,9 +11,13 @@ using System.Threading.Tasks;
 
 namespace AdvancedProgramming.Data
 {
-    public partial class Usuarios 
+    public partial class Usuarios
     {
-
-
+        public int idUsuario { get; set; }
+        public string nombreUsuario { get; set; }
+        public string contrasena { get; set; }
+        public string correo { get; set; }
+        public DateTime fechaRegistro { get; set; }
+        public int idEstado { get; set; }
     }
 }

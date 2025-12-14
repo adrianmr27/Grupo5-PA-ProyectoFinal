@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "StickyNotes.Web\\StickyNotes.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
