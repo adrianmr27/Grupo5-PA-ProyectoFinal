@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.web\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.web\\views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\stickynotes.core\\usuariosbusiness .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|solutionrelative:stickynotes.core\\usuariosbusiness .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\stickynotes.data\\repositories\\irepositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\repositories\\irepositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.data\\repositories\\repositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\repositories\\repositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.data\\entities\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\entities\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.core\\notasbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F516ECE7-0CD9-4A2B-AC96-18C17D9AC8D2}|StickyNotes.Core\\StickyNotes.Core.csproj|solutionrelative:stickynotes.core\\notasbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\stickynotes.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\adria\\source\\repos\\grupo5-pa-proyetofinal\\stickynotes.web\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\stickynotes.web\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\stickynotes.web\\views\\notas\\pinned.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\views\\notas\\pinned.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\stickynotes.data\\repositories\\irepositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\repositories\\irepositorynotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 486,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuariosBusiness .cs",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Core\\UsuariosBusiness .cs",
               "RelativeDocumentMoniker": "StickyNotes.Core\\UsuariosBusiness .cs",
@@ -72,7 +92,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Views\\Notas\\Create.cshtml",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Views\\Notas\\Create.cshtml",
+              "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T17:11:04.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotasController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Controllers\\NotasController.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Web\\Controllers\\NotasController.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Controllers\\NotasController.cs",
+              "RelativeToolTip": "StickyNotes.Web\\Controllers\\NotasController.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAswOQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T16:25:47.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepositoryNotas.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Data\\Repositories\\RepositoryNotas.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Data\\Repositories\\RepositoryNotas.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Data\\Repositories\\RepositoryNotas.cs",
+              "RelativeToolTip": "StickyNotes.Data\\Repositories\\RepositoryNotas.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T16:24:57.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Notas.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Data\\Entities\\Notas.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Data\\Entities\\Notas.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Data\\Entities\\Notas.cs",
+              "RelativeToolTip": "StickyNotes.Data\\Entities\\Notas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T16:24:32.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotasBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Core\\NotasBusiness.cs",
+              "RelativeDocumentMoniker": "StickyNotes.Core\\NotasBusiness.cs",
+              "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Core\\NotasBusiness.cs",
+              "RelativeToolTip": "StickyNotes.Core\\NotasBusiness.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T16:24:06.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Account\\Login.cshtml",
@@ -80,12 +165,11 @@
               "RelativeToolTip": "StickyNotes.Web\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-14T15:57:01.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T15:57:01.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "AccountViewModels.cs",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Models\\AccountViewModels.cs",
               "RelativeDocumentMoniker": "StickyNotes.Web\\Models\\AccountViewModels.cs",
@@ -93,25 +177,24 @@
               "RelativeToolTip": "StickyNotes.Web\\Models\\AccountViewModels.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:53:22.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T15:53:22.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "StickyNotes.Web\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Controllers\\AccountController.cs",
               "RelativeToolTip": "StickyNotes.Web\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T15:51:06.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Pinned.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
               "RelativeDocumentMoniker": "StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
@@ -119,12 +202,11 @@
               "RelativeToolTip": "StickyNotes.Web\\Views\\Notas\\Pinned.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-13T02:54:56.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T02:54:56.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "IRepositoryNotas.cs",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\Grupo5-PA-ProyetoFinal\\StickyNotes.Data\\Repositories\\IRepositoryNotas.cs",
               "RelativeDocumentMoniker": "StickyNotes.Data\\Repositories\\IRepositoryNotas.cs",

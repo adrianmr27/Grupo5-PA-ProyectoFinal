@@ -35,12 +35,6 @@
         </div>
 
         <div class="mb-3">
-            @Html.LabelFor(model => model.idUsuario, "Usuario", new { @class = "form-label fw-semibold" })
-            @Html.DropDownList("idUsuario", null, "Seleccione un usuario", new { @class = "form-select" })
-            @Html.ValidationMessageFor(model => model.idUsuario, "", new { @class = "text-danger" })
-        </div>
-
-        <div class="mb-3">
             @Html.LabelFor(model => model.idCategoria, "Categoría", new { @class = "form-label fw-semibold" })
             @Html.DropDownList("idCategoria", null, "Seleccione una categoría", new { @class = "form-select" })
             @Html.ValidationMessageFor(model => model.idCategoria, "", new { @class = "text-danger" })
