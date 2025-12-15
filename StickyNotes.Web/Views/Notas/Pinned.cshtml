@@ -10,6 +10,25 @@
     @Html.ActionLink("⬅ Volver a Mis Notas", "Index", "Notas", null, new { @class = "btn btn-secondary" })
 </p>
 
+@using (Html.BeginForm("Pinned", "Notas", FormMethod.Get))
+{
+    <div class="search-container" style="margin-bottom: 20px;">
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <input type="text" 
+                   name="search" 
+                   value="@ViewBag.SearchTerm" 
+                   placeholder="Buscar por titulo, contenido o categoria..." 
+                   class="form-control" 
+                   style="flex: 1; max-width: 400px; padding: 8px; border-radius: 6px; border: 1px solid #ccc;" />
+            <button type="submit" class="btn btn-primary" style="padding: 8px 20px;">Buscar</button>
+            @if (!string.IsNullOrEmpty(ViewBag.SearchTerm as string))
+            {
+                @Html.ActionLink("Limpiar", "Pinned", "Notas", null, new { @class = "btn btn-default", style = "padding: 8px 20px;" })
+            }
+        </div>
+    </div>
+}
+
 <style>
     .notes-container {
         display: flex;
@@ -98,11 +117,62 @@
     .btn-delete {
         background-color: #dc3545;
     }
+
+    .search-container {
+        margin-bottom: 20px;
+    }
+
+    .btn-default {
+        background-color: #6c757d;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: transform 0.2s ease-in-out;
+        display: inline-block;
+    }
+
+        .btn-default:hover {
+            transform: translateY(-2px);
+            color: white;
+            text-decoration: none;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: transform 0.2s ease-in-out;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            color: white;
+            text-decoration: none;
+        }
 </style>
 
 @if (!Model.Any())
 {
-    <p>No hay notas fijadas.</p>
+    <div class="alert alert-info">
+        <h4>No hay notas fijadas</h4>
+        <p>
+            @if (!string.IsNullOrEmpty(ViewBag.SearchTerm as string))
+            {
+                <text>No se encontraron notas fijadas con el termino de busqueda "@ViewBag.SearchTerm".</text>
+            }
+            else
+            {
+                <text>No tienes ninguna nota fijada. @Html.ActionLink("Fija tu primera nota!", "Index")</text>
+            }
+        </p>
+    </div>
 }
 else
 {

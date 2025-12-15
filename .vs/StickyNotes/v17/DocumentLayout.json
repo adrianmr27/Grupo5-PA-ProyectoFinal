@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|c:\\users\\juank\\documents\\github\\grupo5-pa-proyectofinal\\stickynotes.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|C:\\Users\\juank\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{33019E97-2DD1-41A8-8189-1EAB1BF84E5E}|StickyNotes.Web\\StickyNotes.Web.csproj|solutionrelative:stickynotes.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|c:\\users\\juank\\documents\\github\\grupo5-pa-proyectofinal\\stickynotes.data\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|C:\\Users\\juank\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\stickynotes.data\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{4180570B-F660-4C16-A316-3D1E7910D18C}|StickyNotes.Data\\StickyNotes.Data.csproj|solutionrelative:stickynotes.data\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -87,8 +87,7 @@
               "RelativeToolTip": "StickyNotes.Data\\App.Config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-12-14T20:09:28.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T20:09:28.679Z"
             },
             {
               "$type": "Document",
@@ -123,7 +122,7 @@
               "RelativeDocumentMoniker": "StickyNotes.Web\\Controllers\\NotasController.cs",
               "ToolTip": "C:\\Users\\juank\\Documents\\GitHub\\Grupo5-PA-ProyectoFinal\\StickyNotes.Web\\Controllers\\NotasController.cs",
               "RelativeToolTip": "StickyNotes.Web\\Controllers\\NotasController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T16:25:47.588Z",
               "EditorCaption": ""

@@ -10,6 +10,25 @@
     @Html.ActionLink("➕ Crear Nueva Nota", "Create", null, new { @class = "btn btn-primary" })
 </p>
 
+@using (Html.BeginForm("Index", "Notas", FormMethod.Get))
+{
+    <div class="search-container" style="margin-bottom: 20px;">
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <input type="text" 
+                   name="search" 
+                   value="@ViewBag.SearchTerm" 
+                   placeholder="Buscar por titulo, contenido o categoria..." 
+                   class="form-control" 
+                   style="flex: 1; max-width: 400px; padding: 8px; border-radius: 6px; border: 1px solid #ccc;" />
+            <button type="submit" class="btn btn-primary" style="padding: 8px 20px;">Buscar</button>
+            @if (!string.IsNullOrEmpty(ViewBag.SearchTerm as string))
+            {
+                @Html.ActionLink("Limpiar", "Index", "Notas", null, new { @class = "btn btn-default", style = "padding: 8px 20px;" })
+            }
+        </div>
+    </div>
+}
+
 <style>
     .notes-container {
         display: flex;
@@ -123,10 +142,49 @@
         .btn-primary:hover {
             transform: translateY(-2px);
         }
+
+    .search-container {
+        margin-bottom: 20px;
+    }
+
+    .btn-default {
+        background-color: #6c757d;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: transform 0.2s ease-in-out;
+        display: inline-block;
+    }
+
+        .btn-default:hover {
+            transform: translateY(-2px);
+            color: white;
+            text-decoration: none;
+        }
 </style>
 
-<div class="notes-container">
-    @foreach (var item in Model)
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        <h4>No hay notas</h4>
+        <p>
+            @if (!string.IsNullOrEmpty(ViewBag.SearchTerm as string))
+            {
+                <text>No se encontraron notas con el termino de busqueda "@ViewBag.SearchTerm".</text>
+            }
+            else
+            {
+                <text>No tienes ninguna nota. @Html.ActionLink("Crea tu primera nota!", "Create")</text>
+            }
+        </p>
+    </div>
+}
+else
+{
+    <div class="notes-container">
+        @foreach (var item in Model)
     {
         <div class="note-card" style="background-color:@item.color">
             <div>
@@ -172,7 +230,8 @@
             </div>
         </div>
     }
-</div>
+    </div>
+}
 
 @Html.AntiForgeryToken()
 

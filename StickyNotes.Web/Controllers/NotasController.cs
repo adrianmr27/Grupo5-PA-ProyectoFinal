@@ -35,25 +35,44 @@ namespace StickyNotes.Web.Controllers
         // LISTADO DE NOTAS
         // ==============================
         [Authorize]
-        public ActionResult Index()
+        public ActionResult Index(string search = "")
         {
             int idUsuario = GetUsuarioId();
 
-            // Excluir notas con estado Inactivo (idEstado = 2) de "Mis Notas"
-            var notasFijadas = db.Notas
+            // Query base para notas fijadas (excluyendo estado Inactivo)
+            var queryFijadas = db.Notas
                 .Where(n => n.fijada && n.idUsuario == idUsuario && (n.idEstado == null || n.idEstado != 2))
                 .Include(n => n.Categorias)
-                .Include(n => n.Estados)
-                .ToList();
+                .Include(n => n.Estados);
 
-            var notasNoFijadas = db.Notas
+            // Query base para notas no fijadas (excluyendo estado Inactivo)
+            var queryNoFijadas = db.Notas
                 .Where(n => !n.fijada && n.idUsuario == idUsuario && (n.idEstado == null || n.idEstado != 2))
                 .Include(n => n.Categorias)
-                .Include(n => n.Estados)
-                .ToList();
+                .Include(n => n.Estados);
+
+            // Aplicar filtro de búsqueda si se proporciona
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                queryFijadas = queryFijadas.Where(n => 
+                    (n.titulo != null && n.titulo.Contains(search)) || 
+                    (n.contenido != null && n.contenido.Contains(search)) ||
+                    (n.Categorias != null && n.Categorias.nombre != null && n.Categorias.nombre.Contains(search))
+                );
+
+                queryNoFijadas = queryNoFijadas.Where(n => 
+                    (n.titulo != null && n.titulo.Contains(search)) || 
+                    (n.contenido != null && n.contenido.Contains(search)) ||
+                    (n.Categorias != null && n.Categorias.nombre != null && n.Categorias.nombre.Contains(search))
+                );
+            }
+
+            var notasFijadas = queryFijadas.ToList();
+            var notasNoFijadas = queryNoFijadas.ToList();
 
             ViewBag.NotasFijadas = notasFijadas;
             ViewBag.IdEstadoCompletado = 2; // Para mostrar/ocultar el botón
+            ViewBag.SearchTerm = search;
             return View(notasNoFijadas);
         }
 
@@ -216,16 +235,29 @@ namespace StickyNotes.Web.Controllers
         // NOTAS FIJADAS
         // ==============================
         [Authorize]
-        public ActionResult Pinned()
+        public ActionResult Pinned(string search = "")
         {
             int idUsuario = GetUsuarioId();
 
-            var notasFijadas = db.Notas
-                .Where(n => n.fijada && n.idUsuario == idUsuario)
+            // Query base para notas fijadas (excluyendo estado Inactivo)
+            var query = db.Notas
+                .Where(n => n.fijada && n.idUsuario == idUsuario && (n.idEstado == null || n.idEstado != 2))
                 .Include(n => n.Categorias)
-                .Include(n => n.Estados)
-                .ToList();
+                .Include(n => n.Estados);
 
+            // Aplicar filtro de búsqueda si se proporciona
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                query = query.Where(n => 
+                    (n.titulo != null && n.titulo.Contains(search)) || 
+                    (n.contenido != null && n.contenido.Contains(search)) ||
+                    (n.Categorias != null && n.Categorias.nombre != null && n.Categorias.nombre.Contains(search))
+                );
+            }
+
+            var notasFijadas = query.ToList();
+
+            ViewBag.SearchTerm = search;
             return View(notasFijadas);
         }
 
