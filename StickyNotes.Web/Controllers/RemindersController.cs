@@ -47,8 +47,7 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: Reminders/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "idReminder,intervalo,idTipoUnidad,idTipoFrecuencia,idNota,idEstado")] Reminder reminder)
@@ -87,8 +86,7 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: Reminders/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+ 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "idReminder,intervalo,idTipoUnidad,idTipoFrecuencia,idNota,idEstado")] Reminder reminder)

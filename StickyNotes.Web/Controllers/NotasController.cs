@@ -299,7 +299,7 @@ namespace StickyNotes.Web.Controllers
                 .Include(n => n.Categorias)
                 .Include(n => n.Estados);
 
-            // Filtrar por búsqueda si se proporciona
+            // Filtrar por búsqueda 
             if (!string.IsNullOrWhiteSpace(search))
             {
                 query = query.Where(n => 

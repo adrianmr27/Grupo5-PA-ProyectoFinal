@@ -42,8 +42,7 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: Estados/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "idEstado,estado")] Estados estados)
@@ -74,8 +73,7 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: Estados/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+     
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "idEstado,estado")] Estados estados)

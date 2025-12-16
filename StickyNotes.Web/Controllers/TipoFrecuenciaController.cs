@@ -44,8 +44,6 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: TipoFrecuencias/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "idTipoFrecuencia,nombre,descripcion,idEstado")] TipoFrecuencia tipoFrecuencia)
@@ -78,8 +76,7 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: TipoFrecuencias/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+ 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "idTipoFrecuencia,nombre,descripcion,idEstado")] TipoFrecuencia tipoFrecuencia)

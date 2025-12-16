@@ -47,8 +47,6 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: Usuarios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "idUsuario,nombre,primerApellido,segundoApellido,nombreUsuario,contrasena,correo,fechaNacimiento,fechaRegistro,idEstado")] Usuarios usuarios)
@@ -85,8 +83,6 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: Usuarios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "idUsuario,nombre,primerApellido,segundoApellido,nombreUsuario,contrasena,correo,fechaNacimiento,fechaRegistro,idEstado")] Usuarios usuarios)

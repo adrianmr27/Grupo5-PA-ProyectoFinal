@@ -44,8 +44,7 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: Tags/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "idTag,nombre,idEstado")] Tags tags)
@@ -78,8 +77,7 @@ namespace StickyNotes.Web.Controllers
         }
 
         // POST: Tags/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+   
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "idTag,nombre,idEstado")] Tags tags)
